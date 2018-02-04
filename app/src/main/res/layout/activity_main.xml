@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.maulanahabibie_1202154216_modul1.MainActivity">
+
+    <TextView
+        android:id="@+id/textmakanmalam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Makan Malam Dengan Milea"
+        android:textColor="@color/colorPrimary"
+        android:textSize="26dp" />
+
+    <EditText
+        android:id="@+id/plaintextmakanan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="Menu Makanan"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/plaintextporsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:hint="Porsi Makanan"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/button_eatbus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="69dp"
+            android:layout_marginTop="44dp"
+            android:background="@android:color/background_dark"
+            android:onClick="eatbus"
+            android:text="Eatbus"
+            android:textColor="#fff"
+            tools:layout_editor_absoluteX="51dp"
+            tools:layout_editor_absoluteY="260dp" />
+
+
+        <Button
+            android:id="@+id/button_abnormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="45dp"
+            android:background="@android:color/background_dark"
+            android:onClick="abnormal"
+            android:text="Abnormal"
+            android:textColor="#fff"
+            tools:layout_editor_absoluteX="236dp"
+            tools:layout_editor_absoluteY="267dp" />
+
+
+    </LinearLayout>
+</LinearLayout>
